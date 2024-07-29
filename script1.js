@@ -8,6 +8,6 @@ document.getElementById('play-button').addEventListener('click', function (event
 
     // Redirect to the new page after the animation completes
     setTimeout(function () {
-        window.location.href = "http://127.0.0.1:5500/index1.html";
+        window.location.href = "index1.html";
     }, 1000); // Adjust the delay to match the animation duration
 });
